@@ -1,0 +1,33 @@
+#game {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  #gameStart,
+  #levelSelect,
+  #gameOver {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #gameStart h1,
+  #levelSelect h1,
+  #gameOver h1 {
+    font-size: 2em;
+  }
+  #start,
+  #level1,
+  #level2,
+  #level3,
+  #restart {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+  }
+  
