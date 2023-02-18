@@ -67,7 +67,7 @@ Open another Terminal tab and from root project folder run following command:
 ```
 $ npm run start:dev
 ```
- Et Voila! From now you just need two commands to startup your development server: 
+ Et Voila! From now on you just need two commands in two terminal tabs/windows to startup your development server: 
 ```
 $ npx tsc --watch
 $ npm run start:dev
@@ -78,4 +78,5 @@ The typescript compiler places the compiled Javascript files in ./web-app/js/src
 There are a lot of more options with brwoser-sync and there is also an UI spinned up. You have the abbillity to connect to remote devices for testing and more. Its worth taking a look into:
 [browser-sync website](https://browsersync.io/)
 
-For easy access I made a git repo with this complete Frontend/Web-App Typescript starter project. Just use it as starting point for your typescript web project:
+For easy access I made a git repo with this complete Frontend/Web-App Typescript starter project. Just use it as starting point for your typescript web application.
+In index.html there is still some example code since I am just starting to develop a basic game world with HTML and canvas rendering.
